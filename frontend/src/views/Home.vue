@@ -5,3 +5,12 @@
         <p>Esplora la nostra vasta gamma di prodotti e servizi per il settore edile.</p>
     </div>
 </template>
+
+<style scoped>
+
+    .home {
+        position: absolute;
+        top:50%;
+    }
+
+</style>

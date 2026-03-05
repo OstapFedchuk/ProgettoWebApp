@@ -1,10 +1,10 @@
 <template>
     <header>
         <div id="menu">
-            <img src="../assets/logo.png" alt="Logo" height="100">
-                <a href="/">Home</a>
-                <a href="/about">Chi Siamo</a>
-                <a href="/contacts">Contatti</a>
+            <img src="../assets/logo.png" alt="Logo">
+            <a href="/"><p>Home</p></a>
+            <a href="/about"><p>Chi Siamo</p></a>
+            <a href="/contacts"><p>Contatti</p></a>
         </div>
     </header>
 </template>
@@ -15,6 +15,10 @@
 <style scoped>
 
     #menu {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -25,6 +29,11 @@
         color: white;
         text-decoration: none;
         margin:auto;
+    }
+
+    #menu a p {
+        font-family: 'Arial', sans-serif;
+        font-weight: bold;
     }
 
     #menu a:hover {
